@@ -1,19 +1,46 @@
 import 'package:flutter/material.dart';
-import 'src/app.dart';
-import 'src/settings/settings_controller.dart';
-import 'src/settings/settings_service.dart';
 
-void main() async {
-  // Set up the SettingsController, which will glue user settings to multiple
-  // Flutter Widgets.
-  final settingsController = SettingsController(SettingsService());
+void main() {
+  runApp(
+    const MaterialApp(
+      title: 'Flutter Tutorial',
+      home: TutorialHome(),
+    ),
+  );
+}
 
-  // Load the user's preferred theme while the splash screen is displayed.
-  // This prevents a sudden theme change when the app is first displayed.
-  await settingsController.loadSettings();
+class TutorialHome extends StatelessWidget {
+  const TutorialHome({super.key});
 
-  // Run the app and pass in the SettingsController. The app listens to the
-  // SettingsController for changes, then passes it further down to the
-  // SettingsView.
-  runApp(MyApp(settingsController: settingsController));
+  @override
+  Widget build(BuildContext context) {
+    // Scaffold is a layout for
+    // the major Material Components.
+    return Scaffold(
+      appBar: AppBar(
+        leading: const IconButton(
+          icon: Icon(Icons.menu),
+          tooltip: 'Navigation menu',
+          onPressed: null,
+        ),
+        title: const Text('Example title'),
+        actions: const [
+          IconButton(
+            icon: Icon(Icons.search),
+            tooltip: 'Search',
+            onPressed: null,
+          ),
+        ],
+      ),
+      // body is the majority of the screen.
+      body: const Center(
+        child: Text('Hello, world!'),
+      ),
+      floatingActionButton: const FloatingActionButton(
+        tooltip: 'Add', // used by assistive technologies
+        onPressed: null,
+        child: Icon(Icons.add),
+      ),
+    );
+  }
 }
