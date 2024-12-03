@@ -5,9 +5,9 @@
 <p>Legacy OS is the simple and easy way for the elderly to use their computer!</p>
 <h3><ins>Key Features:</ins></h3>
 <ol>
-<li>Big, easy to see buttons, and a simple point and click interface, Legacy OS is the best option, even for those who are visually impaired.</li>
+<li>Big, easy to see buttons, and a simple point and click interface</li>
 <li>Out of the box, all-in-one OS replacement with full integreation for system apps</li>
-<li>Simplified OS installer and setup with a wide variety of software built on vetted Linux repos</li>
-<li>Secured by the Open Source Community's efforts and backed by Live Patch security updates through Canonical with Ubuntu Pro (Account required, subscription free for personal users)</li>
-<li>Advanced configuration available with Linux desktop session selectors</li>
+<li>Simplified OS installer and setup with software built on existing Linux developments</li>
+<li>Secured by Live Patch Kernel security updates through Canonical with Ubuntu Pro (Account required, subscription free for personal users)</li>
+<li>Advanced configuration available with the CLI and Gnome desktop sessions</li>
 </ol>
