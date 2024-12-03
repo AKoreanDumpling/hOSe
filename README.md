@@ -1,7 +1,7 @@
 <h3><b><em>Please Note: This is still a WIP!!</em></b></h3>
 
 <h1><b>Legacy OS.</b></h1>
-<h2><b>Simple. Interactive. <em>Easy.</em></b></h2>
+<h2><b>Fast. Focused. <em>Friendly.</em></b></h2>
 <p>Legacy OS is the simple and easy way for the elderly to use their computer!</p>
 <h3><ins>Key Features:</ins></h3>
 <ol>
